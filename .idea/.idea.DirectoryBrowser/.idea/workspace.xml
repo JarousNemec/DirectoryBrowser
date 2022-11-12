@@ -4,20 +4,43 @@
     <projectFile>DirectoryBrowser/DirectoryBrowser.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41458338-33a9-4325-aed7-1e056464ba4f" name="Changes" comment="" />
+    <list default="true" id="41458338-33a9-4325-aed7-1e056464ba4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DirectoryBrowser/BrowserItemType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DirectoryBrowser/Controls/ItemPropertiesControl.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DirectoryBrowser/FileChooser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DirectoryBrowser/ItemPropertiesForm.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DirectoryBrowser/ItemPropertiesForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DirectoryBrowser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DirectoryBrowser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryBrowser/BrowserItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryBrowser/BrowserItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryBrowser/Controls/BrowserItem.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryBrowser/Controls/BrowserItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryBrowser/Controls/ItemPropertiesControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryBrowser/Controls/BrowserItem.resx" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryBrowser/FileChooser.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryBrowser/DirectoryBrowser.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryBrowser/DirectoryBrowser.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryBrowser/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryBrowser/FileChooser.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryBrowser/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryBrowser/Form1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryBrowser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryBrowser/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85a420b2bf614d95a7a4ca460c46dcd35a5d48/09/ac8dd3d2/Label.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85a420b2bf614d95a7a4ca460c46dcd35a5d48/65/b3a4d399/ListViewItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85a420b2bf614d95a7a4ca460c46dcd35a5d48/93/25564468/ImageList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861e23c672704a4a8eca9c234af0cac552e590/a3/b4ad72cf/FileInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861e23c672704a4a8eca9c234af0cac552e590/a8/9632b0d8/DirectoryInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HPDbeyRNmCS5gI7J6CR27T8v3U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,14 +82,26 @@
       <option name="presentableId" value="Default" />
       <updated>1668177899003</updated>
       <workItem from="1668177901644" duration="8493000" />
-      <workItem from="1668191577042" duration="4610000" />
+      <workItem from="1668191577042" duration="18708000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -74,45 +109,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DirectoryBrowser/test.cs</url>
-          <line>71</line>
-          <properties documentPath="C:\Users\mortar\RiderProjects\DirectoryBrowser\DirectoryBrowser\test.cs" initialLine="67" containingFunctionPresentation="constructor 'test'">
+          <url>file://$PROJECT_DIR$/DirectoryBrowser/FileChooser.cs</url>
+          <line>85</line>
+          <properties documentPath="C:\Users\mortar\RiderProjects\DirectoryBrowser\DirectoryBrowser\Form1.cs" initialLine="85" containingFunctionPresentation="method 'AddItemToBrowser'">
             <startOffsets>
-              <option value="2556" />
+              <option value="3794" />
             </startOffsets>
             <endOffsets>
-              <option value="2598" />
+              <option value="3829" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DirectoryBrowser/Form1.cs</url>
-          <line>60</line>
-          <properties documentPath="C:\Users\mortar\RiderProjects\DirectoryBrowser\DirectoryBrowser\Form1.cs" initialLine="25" containingFunctionPresentation="method 'LoadIcons'">
-            <startOffsets>
-              <option value="1734" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1735" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DirectoryBrowser/Form1.cs</url>
-          <line>57</line>
-          <properties documentPath="C:\Users\mortar\RiderProjects\DirectoryBrowser\DirectoryBrowser\Form1.cs" initialLine="29" containingFunctionPresentation="method 'LoadIcons'">
-            <startOffsets>
-              <option value="1697" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1698" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#DirectoryBrowser.Form1.InsertFilesAndDirsToList" memberName="filePaths" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
