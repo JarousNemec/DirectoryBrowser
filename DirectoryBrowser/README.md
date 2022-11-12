@@ -15,5 +15,38 @@
 ## Final design of gui
 ![Example of gui](doc/FinalGui.png)
 
-## Example design of gui for inspiration
+## Example of code
+```
+public void ListProperties(BrowserItem item)
+        {
+            int count = 0;
+            const int height = 25;
+            if (item.Type == BrowserItemType.Folder)
+            {
+                var info = new DirectoryInfo(item.Path);
+                PropertyInfo[] props = typeof(DirectoryInfo).GetProperties();
+                foreach (var prop in props)
+                {
+                    var value = prop.GetValue(info, null)?.ToString();
+                    var name = prop.Name;
+                    DisplayProperty(height, count, name, value);
+                    count++;
+                }
+            }
+            else if (item.Type == BrowserItemType.File)
+            {
+                var info = new FileInfo(item.Path);
+                PropertyInfo[] props = typeof(FileInfo).GetProperties();
+                foreach (var prop in props)
+                {
+                    var value = prop.GetValue(info, null)?.ToString();
+                    var name = prop.Name;
+                    DisplayProperty(height, count, name, value);
+                    count++;
+                }
+            }
+        }
+```
+
+## Sample design of gui for inspiration
 ![Example of gui](doc/DirectoryBrowserDesign.png)
